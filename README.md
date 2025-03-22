@@ -1,10 +1,19 @@
 # tiny-compiler
 
+I was sad that I never had the chance to take the compiler class during college. I am no longer sad after this.
+
+However, this implementation is quite simple, not even requiring an AST. I will work on something more ambitious soon.
+
 Use Python to implement our own programming language to compile to C code.
 
 Let's call this language "Tiny". It will be a dialect of BASIC.
 
 This is done based on this [tutorial](https://austinhenley.com/blog/teenytinycompiler1.html).
+
+## How to use?
+
+Run `bash build.sh ./examples/average.tiny` to compile the Tiny code to C code.
+The corresponding C file and executable should appear. Now you can run them using `./average` and also check out the compiled C code in `average.c`.
 
 ## Tiny Language Features
 
